@@ -1,8 +1,8 @@
   [
     {
       "kernelSource": {
-        "name": "ZXEN-320",
-        "repo": "https://github.com/Yttehs-HDX/InfiniR_kernel_ucmi_NetHunter.git",
+        "name": "ZXEN-330",
+        "repo": "https://github.com/XEKZHX/InfiniR_kernel_ucmi_NetHunter.git",
         "branch": "14.0-umi",
         "device": "umi",
         "defconfig": "umi_defconfig"
