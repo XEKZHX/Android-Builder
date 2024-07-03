@@ -1,18 +1,19 @@
   [
     {
       "kernelSource": {
-        "name": "ZXEN-330",
-        "repo": "https://github.com/XEKZHX/InfiniR_kernel_ucmi_NetHunter.git",
-        "branch": "14.0-umi",
+        "name": "ZXEN-410",
+        "repo": "https://github.com/XEKZHX/kernel_xiaomi_sm8250-crd.git",
+        "branch": "fourteen",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
       "toolchains": [
    {
-     "name": "clang",
-     "url": "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20231003-release/Clang-16.0.6-20231003.tar.gz" ,
-     "binaryEnv": ["./bin"]
-   }
+    "name": "clang",
+    "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+    "branch": "11",
+    "binaryEnv": ["bin"]
+  }
    ],
       "enableCcache": true,
       "params": {
@@ -34,7 +35,7 @@
           "branch": "kona"
         }
       },
-      "enableKernelSU": true,
+      "enableKernelSU": false,
       "enableLXC": true
     }
 ]
