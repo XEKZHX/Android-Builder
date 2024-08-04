@@ -1,8 +1,8 @@
   [
     {
       "kernelSource": {
-        "name": "ZXEN-410",
-        "repo": "https://github.com/XEKZHX/kernel_xiaomi_sm8250-crd.git",
+        "name": "ZXEN-420",
+        "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_thyme.git",
         "branch": "fourteen",
         "device": "umi",
         "defconfig": "umi_defconfig"
