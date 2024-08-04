@@ -3,7 +3,7 @@
       "kernelSource": {
         "name": "ZXEN-420",
         "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_thyme.git",
-        "branch": "fourteen",
+        "branch": "14.0",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
