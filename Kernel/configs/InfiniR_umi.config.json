@@ -1,11 +1,11 @@
   [
     {
       "kernelSource": {
-        "name": "ZXEN-420",
-        "repo": "https://github.com/XEKZHX/crd_sm8250.git",
-        "branch": "lineage-21",
-        "device": "umi",
-        "defconfig": "vendor/xiaomi/umi_config"
+        "name": "Kernel_4.19",
+        "repo": "https://github.com/XEKZHX/kernel_xiaomi_sdm845-4.19.git",
+        "branch": "staging5",
+        "device": "polaris",
+        "defconfig": "vendor/polaris"
       },
       "toolchains": [
    {
