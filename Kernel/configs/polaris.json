@@ -1,0 +1,41 @@
+  [
+    {
+      "kernelSource": {
+        "name": "Kernel_4.19",
+        "repo": "https://github.com/XEKZHX/kernel_xiaomi_sdm845-4.19.git",
+        "branch": "staging5",
+        "device": "polaris",
+        "defconfig": "vendor/polaris"
+      },
+      "toolchains": [
+   {
+    "name": "clang",
+    "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+    "branch": "11",
+    "binaryEnv": ["bin"]
+  }
+   ],
+      "enableCcache": true,
+      "params": {
+        "ARCH": "arm64",
+        "CC": "clang/bin/clang",
+        "externalCommands": {
+          "CROSS_COMPILE": "aarch64-linux-gnu-",
+          "CLANG_TRIPLE": "aarch64-linux-gnu-",
+          "NM":"llvm-nm",
+          "OBJDUMP":"llvm-objdump",
+          "STRIP":"llvm-strip"
+        }
+      },
+      "AnyKernel3": {
+        "use": true,
+        "release": true,
+        "custom": {
+          "repo": "https://github.com/toraidl/AnyKernel3.git",
+          "branch": "kona"
+        }
+      },
+      "enableKernelSU": false,
+      "enableLXC": true
+    }
+]
