@@ -2,10 +2,10 @@
     {
       "kernelSource": {
         "name": "Kernel_4.19",
-        "repo": "https://github.com/XEKZHX/kernel_xiaomi_sdm845-4.19.git",
-        "branch": "staging5",
+        "repo": "https://github.com/XEKZHX/android_kernel_xiaomi_sdm845.git",
+        "branch": "14.0",
         "device": "polaris",
-        "defconfig": "vendor/polaris"
+        "defconfig": "vendor/xiaomi/mi845_defconfig"
       },
       "toolchains": [
    {
