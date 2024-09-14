@@ -22,6 +22,7 @@
         "externalCommands": {
           "CROSS_COMPILE": "aarch64-linux-gnu-",
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
+          "CROSS_COMPILE_ARM32" : "arm-linux-gnueabihf-",
           "NM":"llvm-nm",
           "OBJDUMP":"llvm-objdump",
           "STRIP":"llvm-strip"
