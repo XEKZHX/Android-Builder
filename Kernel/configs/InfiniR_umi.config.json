@@ -1,9 +1,9 @@
   [
     {
       "kernelSource": {
-        "name": "InfiniR",
-        "repo": "https://github.com/toraidl/InfiniR_kernel_umi.git",
-        "branch": "14.0-umi",
+        "name": "ZXEN",
+        "repo": "https://github.com/UtsavBalar1231/kernel_xiaomi_sm8250.git",
+        "branch": "android14-stable",
         "device": "umi",
         "defconfig": "umi_defconfig"
       },
